@@ -2,7 +2,6 @@
 
 /**
  * swap_char - swaps | and & for non-printed chars
- *
  * @input: input string
  * @bool: type of swap
  * Return: swapped string
@@ -44,8 +43,7 @@ char *swap_char(char *input, int bool)
 }
 
 /**
- * add_nodes - add separators and command lines in the lists
- *
+ * add_nodes - adding separators and command lines in the lists
  * @head_s: head of separator list
  * @head_l: head of command lines list
  * @input: input string
@@ -80,8 +78,7 @@ void add_nodes(sep_list **head_s, line_list **head_l, char *input)
 }
 
 /**
- * go_next - go to the next command line stored
- *
+ * go_next - move to the next command line stored
  * @list_s: separator list
  * @list_l: command line list
  * @datash: data structure
