@@ -24,10 +24,10 @@ char *_strcat(char *dest, const char *src)
 	return (dest);
 }
 /**
- * *_strcpy - Copies the string pointed to by src.
+ * *_strcpy - Copy the string pointed to by src
  * @dest: Type char pointer the dest of the copied str
  * @src: Type char pointer the source of str
- * Return: the dest.
+ * Return: the dest
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -43,10 +43,10 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * _strcmp - Function that compares two strings.
+ * _strcmp - Function that compares two strings
  * @s1: type str compared
  * @s2: type str compared
- * Return: Always 0.
+ * Return: Always 0
  */
 int _strcmp(char *s1, char *s2)
 {
